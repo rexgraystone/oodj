@@ -1,2 +1,4 @@
 .vscode/task.json
 *.class
+.DS_Store
+Images/.DS_Store
