@@ -27,7 +27,7 @@ This repository contains all the Java programs that I have executed for my Objec
     java -version
     ```
 
-    It should look something like this ![Java Version](JDK_Version.png "Java Version")
+    It should look something like this ![Java Version](Images/JDK_Version.png "Java Version")
 
     If you don't have Java installed, you can download it from [here](https://www.oracle.com/in/java/technologies/javase-downloads.html).
 
