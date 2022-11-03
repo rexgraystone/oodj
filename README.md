@@ -48,6 +48,7 @@ This repository contains all the Java programs that I have executed for my Objec
     ```bash
     git clone https://github.com/rexgraystone/oodj.git
     ```
+
 3. Navigate to the directory where you cloned the repository.
 
     ```bash
@@ -59,6 +60,7 @@ This repository contains all the Java programs that I have executed for my Objec
     ```bash
     javac <Serial Number>_<Java File Name>.java
     ```
+
     For example, to compile the first program, you can use the following command.
 
     ```bash
