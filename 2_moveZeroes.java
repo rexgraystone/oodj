@@ -3,7 +3,7 @@
     Maintain the relative order of the other (non-zero) array elements.
 */
 
-class zeroes { // Class to move all the zeroes to the end of the array
+class moveZeroes { // Class to move all the zeroes to the end of the array
     public static void main(String[] args) { 
         int[] arr = {3, 0, 4, 0, 5, 0, 0}; 
         int temp; // Temporary variable to store the value of the array element

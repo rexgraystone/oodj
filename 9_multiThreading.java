@@ -2,10 +2,10 @@
 	9. Write a Java program to create multiple threads.
 */
 
-class MultiThread implements Runnable {
+class multiThread implements Runnable {
 	private String threadName;
 
-	MultiThread (String name) {
+	multiThread (String name) {
 		threadName = name;
 		System.out.println("Creating a thread - " +threadName);
 	}
@@ -24,12 +24,12 @@ class MultiThread implements Runnable {
 		System.out.println(threadName+ " Existing");
 	}
 }
-class MultiThreadExample {
+class multiThreading {
 	public static void main(String args[]) {
-		MultiThread mt1 = new MultiThread ("King");
+		multiThread mt1 = new multiThread ("King");
 		Thread t1 = new Thread (mt1);
 		t1.start();
-		MultiThread mt2 = new MultiThread ("Queen");
+		multiThread mt2 = new multiThread ("Queen");
 		Thread t2 = new Thread (mt2);
 		t2.start();
 	}
