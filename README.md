@@ -7,16 +7,16 @@ This repository contains all the Java programs that I have executed for my Objec
 | Serial No. | C File Name | Description |
 | :---: | :--- | :--- |
 | 1  | [1_electricityBill.java](https://github.com/rexgraystone/oodj/blob/master/1_electricityBill.java) | This program calculates the electricity bill for a given number of units. |
-| 2  | [2_Zeros.java](https://github.com/rexgraystone/oodj/blob/master/2_Zeroes.java) | This program moves all the zeros to the end of an array. |
-| 3  | [3_NonRepeatingBoolean.java](https://github.com/rexgraystone/oodj/blob/master/3_NonRepeatingBoolean.java) | This program finds the first non-repeating character in an array. |
-| 4  | [4_Inheritance.java](https://github.com/rexgraystone/oodj/blob/master/4_Inheritance.java) | This program demonstrates the concept of inheritance in Java. |
-| 5  | [5_MethodOverload.java](https://github.com/rexgraystone/oodj/blob/master/5_MethodOverload.java) | This program demonstrates the concept of method overloading in Java. |
-| 6  | [6_GarbageCollect.java](https://github.com/rexgraystone/oodj/blob/master/6_GarbageCollect.java) | This program demonstrates the concept of garbage collection in Java. |
-| 7  | [7_Polymorphism.java](https://github.com/rexgraystone/oodj/blob/master/7_Polymorphism.java) | This program demonstrates the concept of polymorphism in Java. |
-| 8  | [8_ExceptionHandling.java](https://github.com/rexgraystone/oodj/blob/master/8_ExceptionHandling.java) | This program demonstrates the concept of exception handling in Java. |
-| 9  | [9_MultiThreadExample.java](https://github.com/rexgraystone/oodj/blob/master/9_MultiThreadExample.java) | This program demonstrates the concept of multi-threading in Java. |
+| 2  | [2_moveZeros.java](https://github.com/rexgraystone/oodj/blob/master/2_moveZeroes.java) | This program moves all the zeros to the end of an array. |
+| 3  | [3_nonRepeatingChar.java](https://github.com/rexgraystone/oodj/blob/master/3_nonRepeatingChar.java) | This program finds the first non-repeating character in an array. |
+| 4  | [4_salary.java](https://github.com/rexgraystone/oodj/blob/master/4_salary.java) | This program demonstrates the concept of inheritance in Java. |
+| 5  | [5_methodOverloading.java](https://github.com/rexgraystone/oodj/blob/master/5_methodOverloading.java) | This program demonstrates the concept of method overloading in Java. |
+| 6  | [6_garbageCollection.java](https://github.com/rexgraystone/oodj/blob/master/6_garbageCollection.java) | This program demonstrates the concept of garbage collection in Java. |
+| 7  | [7_polymorphismFunction.java](https://github.com/rexgraystone/oodj/blob/master/7_polymorphismFunction.java) | This program demonstrates the concept of polymorphism in Java. |
+| 8  | [8_exceptionHandlingFunc.java](https://github.com/rexgraystone/oodj/blob/master/8_exceptionHandlingFunc.java) | This program demonstrates the concept of exception handling in Java. |
+| 9  | [9_multiThreading.java](https://github.com/rexgraystone/oodj/blob/master/9_multiThreading.java) | This program demonstrates the concept of multi-threading in Java. |
 | 10  | [10_JTableP.java](https://github.com/rexgraystone/oodj/blob/master/10_JTableP.java) | This program implements a JTable in Java. |
-| 11  | [11_JFUI.java](https://github.com/rexgraystone/oodj/blob/master/11_JFUI.java) | This program implements a JFrame in Java. |
+| 11  | [11_buildGUI.java](https://github.com/rexgraystone/oodj/blob/master/11_buildGUI.java) | This program implements a JFrame in Java. |
 | 12  | [12_Database.java](https://github.com/rexgraystone/oodj/blob/master/12_Database.java) | This program implements a database and database operations in Java. |
 
 ## How to Run
