@@ -4,12 +4,12 @@
 
 import java.util.Scanner;
 
-class Employee {
+class employee {
 	private int ID;
 	private String name;
 	private int age;
 	private static int nextId = 1;
-	public Employee(String name, int age) {
+	public employee(String name, int age) {
 		this.name = name;
 		this.age = age;
 		this.ID = nextId++;
@@ -22,7 +22,7 @@ class Employee {
 	}
 }
 
-class GarbageCollect {
+class garbageCollect {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
         String e, f, g;
@@ -32,9 +32,9 @@ class GarbageCollect {
         f = sc.next();
         System.out.println("Enter the name of the 3rd employee: ");
         g = sc.next();
-        Employee E = new Employee(e, 10);
-		Employee F = new Employee(f, 11);
-		Employee G = new Employee(g, 12);
+        employee E = new employee(e, 10);
+		employee F = new employee(f, 11);
+		employee G = new employee(g, 12);
 		E.eshow();
 		E.showNextId();
 		F.eshow();
