@@ -17,43 +17,43 @@ class employeeDetails { // Class to store the details of an employee
 }
 
 class managerDetails extends employeeDetails { // Class to store the details of a manager
-    public boolean manager; // Variable to store the manager status of the employee
+    public boolean managerStatus; // Variable to store the manager status of the employee
     void employee(int a, String s, boolean m) { // Method to store the details of the employee
         age = a;
         employeeName = s;
-        manager = m;
+        managerStatus = m;
     }
     void display() {
-        System.out.println("Name of employee: " + employeeName + "\nAge of employee: " + age + "\nManager: " + manager);
+        System.out.println("Name of employee: " + employeeName + "\nAge of employee: " + age + "\nManager: " + managerStatus);
     }
 }
 
-class polymorphismFunction {
+class polymorphismFunction { // Class to demonstrate polymorphism
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            int x1, x2;
-            String s1, s2;
-            boolean b1, b2;
-            System.out.println("Enter the details of Employee 1:");
-            System.out.println("Name: ");
-            s1 = sc.next();
-            System.out.println("Age: ");
-            x1 = sc.nextInt();
-            System.out.println("Manager?: ");
-            b1 = sc.nextBoolean();
-            managerDetails m1 = new managerDetails();
-            System.out.println("Enter the details of Employee 2:");
-            System.out.println("Name: ");
-            s2 = sc.next();
-            System.out.println("Age: ");
-            x2 = sc.nextInt();
-            System.out.println("Manager?: ");
-            b2 = sc.nextBoolean();
-            managerDetails m2 = new managerDetails();
-            m1.employee(x1, s1, b1);
-            m2.employee(x2, s2, b2);
-            m1.display();
-            m2.display();
+        try (Scanner sc = new Scanner(System.in)) { // Scanner object to take input from the user
+            int x1, x2; // Variables to store the age of the employees
+            String s1, s2; // Variables to store the name of the employees
+            boolean b1, b2; // Variables to store the manager status of the employees
+            System.out.println("Enter the details of Employee 1:"); // Prompt the user to enter the details of the first employee
+            System.out.println("Name: "); // Prompt the user to enter the name of the first employee
+            s1 = sc.next(); // Take the name of the first employee from the user
+            System.out.println("Age: "); // Prompt the user to enter the age of the first employee
+            x1 = sc.nextInt(); // Take the age of the first employee from the user
+            System.out.println("Manager?: "); // Prompt the user to enter the manager status of the first employee
+            b1 = sc.nextBoolean(); // Take the manager status of the first employee from the user
+            managerDetails m1 = new managerDetails(); // Object to store the details of the first employee
+            System.out.println("Enter the details of Employee 2:"); // Prompt the user to enter the details of the second employee
+            System.out.println("Name: "); // Prompt the user to enter the name of the second employee
+            s2 = sc.next(); // Take the name of the second employee from the user
+            System.out.println("Age: "); // Prompt the user to enter the age of the second employee
+            x2 = sc.nextInt(); // Take the age of the second employee from the user
+            System.out.println("Manager?: "); // Prompt the user to enter the manager status of the second employee
+            b2 = sc.nextBoolean(); // Take the manager status of the second employee from the user
+            managerDetails m2 = new managerDetails(); // Object to store the details of the second employee
+            m1.employee(x1, s1, b1); // Store the details of the first employee
+            m2.employee(x2, s2, b2); // Store the details of the second employee
+            m1.display(); // Display the details of the first employee
+            m2.display(); // Display the details of the second employee
         }
     }
 }
