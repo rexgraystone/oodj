@@ -50,8 +50,7 @@ class dbUpdate {
 		catch (Exception e) {
 			e.printStackTrace();
 		} 
-	 }
-  
+	 }  
 }
 
 class dbDrop {
@@ -74,7 +73,7 @@ class dbDrop {
 
 class Database {
 	public static void main(String args[]) {
-		dbConnect x=new dbConnect();
+		dbConnect x = new dbConnect();
 		dbInsert y = new dbInsert(x);
 		dbUpdate z = new dbUpdate(x);
 		dbDrop w = new dbDrop(x);

@@ -19,7 +19,7 @@ class perimeterCalc {
     }
 }
 
-class methodOverload {
+class methodOverloading {
     public static void main(String[] args) {
         int opt, x, y, z; // Variables to store the user input
         perimeterCalc pc = new perimeterCalc(); // Object of the class perimeterCalc

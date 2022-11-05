@@ -39,28 +39,28 @@ class salary extends employee { // Class to store the details of the salary
         }
     }
     public static void main(String [] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            int length = Integer.parseInt(args[0]);
-            salary obj = new salary(length);
-            if(length == 0) {
-                System.out.println("Please enter employee ID");
-                System.exit(0);
+        try (Scanner sc = new Scanner(System.in)) { // Scanner object to take input from the user
+            int length = Integer.parseInt(args[0]); // Take the length of the array from the user
+            salary obj = new salary(length); // Create an object of the class 'salary'
+            if(length == 0) { // If the length of the array is 0
+                System.out.println("Please enter employee ID"); // Print the message
+                System.exit(0); // Exit the program
+            } 
+            for(int i = 0; i < length; i++) { // Loop to take the details of the employee
+                System.out.println("\n\n Enter the " + (i + 1) + " employee ID"); // Print the message
+                obj.employeeID[i] = sc.next(); // Take the employee ID from the user
+                System.out.print("\n Name of employee -->"); // Print the message
+                obj.employeeName[i] = sc.next(); // Take the employee name from the user
+                System.out.print("\n Designation of employee -->"); // Print the message
+                obj.designation[i] = sc.next(); // Take the designation of the employee from the user
+                System.out.print("\n Monthly salary of employee -->"); // Print the message
+                obj.monthlySalary[i] = sc.nextDouble(); // Take the monthly salary of the employee from the user
             }
-            for(int i = 0;i < length; i++) {  
-                System.out.println("\n\n Enter the " + (i + 1) + " employee ID");
-                obj.employeeID[i] = sc.next();
-                System.out.print("\n Name of employee -->");
-                obj.employeeName[i] = sc.next();    
-                System.out.print("\n Designation of employee -->");
-                obj.designation[i] = sc.next();    
-                System.out.print("\n Monthly salary of employee -->");
-                obj.monthlySalary[i] = sc.nextDouble();
-            }
-            obj.display(length);
+            obj.display(length); // Call the method 'display' to display the details of the employee
         } 
-        catch (NumberFormatException e) {
-            System.out.println("Please enter a valid number");
-            e.printStackTrace();
+        catch (NumberFormatException e) { // Catch the exception if the user enters a string instead of an integer
+            System.out.println("Please enter a valid number"); // Print the message
+            e.printStackTrace(); // Print the stack trace
         }
     }
 }

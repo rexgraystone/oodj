@@ -22,7 +22,7 @@ class employee {
 	}
 }
 
-class garbageCollect {
+class garbageCollection {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
         String e, f, g;
