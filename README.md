@@ -6,7 +6,7 @@ This repository contains all the Java programs that I have executed for my Objec
 
 | Serial No. | C File Name | Description |
 | :---: | :--- | :--- |
-| 1  | [1_Electicty.java](https://github.com/rexgraystone/oodj/blob/master/1_Electricity.java) | This program calculates the electricity bill for a given number of units. |
+| 1  | [1_electricityBill.java](https://github.com/rexgraystone/oodj/blob/master/1_electricityBill.java) | This program calculates the electricity bill for a given number of units. |
 | 2  | [2_Zeros.java](https://github.com/rexgraystone/oodj/blob/master/2_Zeroes.java) | This program moves all the zeros to the end of an array. |
 | 3  | [3_NonRepeatingBoolean.java](https://github.com/rexgraystone/oodj/blob/master/3_NonRepeatingBoolean.java) | This program finds the first non-repeating character in an array. |
 | 4  | [4_Inheritance.java](https://github.com/rexgraystone/oodj/blob/master/4_Inheritance.java) | This program demonstrates the concept of inheritance in Java. |
