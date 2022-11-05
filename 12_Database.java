@@ -18,7 +18,7 @@ class dbConnect {
 			Class.forName("com.mysql.jdbc.Driver");
 			c=DriverManager.getConnection("jdbc:mysql://localhost/sys","root","root");
 			s=c.createStatement();
-			s.execute("create table stu1(regno INTEGER not NULL, name text(16),Dept text(6),city text(6))");
+			s.execute("create table stu1(regno INTEGER not NULL, name text(16), Dept text(6),city text(6))");
 			System.out.println("Table created");
 		}
 		catch(Exception e) {
@@ -30,8 +30,8 @@ class dbConnect {
 class dbInsert {
 	dbInsert(dbConnect x) {
 		try {
-			x.s.execute("insert into stu1 values(001,'sara','CS','beng')");
-			x.s.execute("insert into stu1 values(002,'mary','CS','beng')");
+			x.s.execute("insert into stu1 values(001, 'sara', 'CS', 'beng')");
+			x.s.execute("insert into stu1 values(002, 'mary', 'CS', 'beng')");
 			System.out.println("Records inserted");
 		}
 		catch(Exception e) {
