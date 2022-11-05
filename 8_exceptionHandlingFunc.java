@@ -4,14 +4,14 @@
 
 import java.util.Scanner;
 
-class CustomExp extends Exception {
-    public CustomExp(String m) {
+class customException extends Exception {
+    public customException(String m) {
         super(m);
     }
 }
 
 class ExceptionHandling {
-    public static void main(String[] args) throws CustomExp {
+    public static void main(String[] args) throws customException {
         try (Scanner sc = new Scanner(System.in)) {
             int n, a1, a2;
             int[] arr;
@@ -26,7 +26,7 @@ class ExceptionHandling {
             a1 = sc.nextInt();
             a2 = sc.nextInt();
             if(arr[a2]>arr[a1]) {
-                throw new CustomExp("2nd element must be lesser than 1st element.");
+                throw new customException("2nd element must be lesser than 1st element.");
             }
             try {
                 int a3 = arr[a1]/arr[a2];
