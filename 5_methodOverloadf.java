@@ -4,27 +4,27 @@
 
 import java.util.Scanner;
 
-class PerimeterCalc {
+class perimeterCalc {
     void perimeter(int x) {
-        int p = 4*x;
-        System.out.println("\nThe perimeter of the square with side "+x+" is "+p+".");
+        int p = 4 * x;
+        System.out.println("\nThe perimeter of the square with side " + x + " is " + p + ".");
     }   
 
     void perimeter(int x, int y) {
-        int p = 2*(x+y);
-        System.out.println("\nThe perimeter of the rectangle with length "+x+" and breadth "+y+" is "+p+".");
+        int p = 2 * (x + y);
+        System.out.println("\nThe perimeter of the rectangle with length " + x + " and breadth " + y + " is " + p + ".");
     }
 
     void perimeter(int x, int y, int z) {
-        int p = (x+y+z);
-        System.out.println("\nThe perimeter of the triangle with sides "+x+", "+y+", and "+z+" is "+p+".");
+        int p = (x + y + z);
+        System.out.println("\nThe perimeter of the triangle with sides " + x + ", " + y + ", and " + z + " is " + p + ".");
     }
 }
 
-class MethodOverload {
+class methodOverload {
     public static void main(String[] args) {
         int a, x, y, z;
-        PerimeterCalc pc = new PerimeterCalc();
+        perimeterCalc pc = new perimeterCalc();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your option: \n1. Perimeter of square\n2. Perimeter of rectangle\n3. Perimeter of scalar triangle\n");
         a = sc.nextInt();
